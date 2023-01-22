@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CryptoView</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&display=swap" rel="stylesheet">
+     <link rel="icon" href="./cryptocurrency.png">
+
+    <script src="https://kit.fontawesome.com/ff3f5be92c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    
+    <!-- Navigation Bar -->
+    <nav class="flex_container">
+      <div class="flex_container">
+        <img src="./chainlink.png" alt="Logo" class="logo" />
+        <h1>CryptoView</h1>
+      </div>
+      <a href="search.html" class="anchor_btn">Search</a>
+    </nav>
+    
+    <!-- Main Section containing main heading and image -->
+    <section class="main flex_container">
+      <h1>CryptoView
+        <br />
+        <br />
+        The new Level of 
+        <br />
+        Digital Currency</h1>
+      <img src="crypto.png" alt="Main Image" />
+    </section>
+
+    <!-- Second section containing top 4/5 coin information -->
+    <section class="trending_coin">
+      <div class="scroll_animation flex_container">
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Bitcoin</h3>
+            <p>₹ <span id="bitcoin_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Binance</h3>
+            <p>₹ <span id="binanace_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/975/large/cardano.png" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Cardano</h3>
+            <p>₹ <span id="cardano_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/5/large/dogecoin.png" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Doge</h3>
+            <p>₹ <span id="doge_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/279/large/ethereum.png" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Ethereum</h3>
+            <p>₹ <span id="ethereum_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Helium</h3>
+            <p>₹ <span id="helium_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Litecoin</h3>
+            <p>₹ <span id="litecoin_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Polkadot</h3>
+            <p>₹ <span id="polkadot_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Solana</h3>
+            <p>₹ <span id="solana_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Stellar</h3>
+            <p>₹ <span id="steller_price_container"></span></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" alt="Coin image" class="float-left" />
+          <div class="float-right ml_1">
+            <h3>Tether</h3>
+            <p>₹ <span id="tether_price_container"></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Section containing the main features of the website -->
+    <section class="features flex_container">
+      <div class="card">
+        <h1>Free</h1>
+        <p>This is a completely free to use Website. We do not show any ads or we do not have any paid membership.</p>
+      </div>
+      <div class="card">
+        <h1>Historical Data</h1>
+        <p>We show graphical representation of historical data of the Cryptocurrencies. The graphs can be selected from 24 hours upto 1 year.</p>
+      </div>
+      <div class="card">
+        <h1>100+ Coins</h1>
+        <p>We show the data of many popular Cryptocurrencies and even have a search functionality for a smoother User Experience.</p>
+      </div>
+    </section>
+
+    <!-- This is the footer containing copyright, created by etc. etc. -->
+    <footer>
+      <i class="fa-brands fa-facebook-f"></i>
+      &emsp;
+      <i class="fa-brands fa-instagram"></i>
+      &emsp;
+      <i class="fa-brands fa-twitter"></i>
+      &emsp;
+      <i class="fa-brands fa-linkedin-in"></i>
+
+      <h3>Copyright &copy; MSAlam &amp; Team</h3>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

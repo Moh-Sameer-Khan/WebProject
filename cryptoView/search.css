@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+}
+section,nav {
+    margin: 1rem;
+
+}
+  
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #ADE8F4;
+    /* padding: 1rem; */
+    font-family: 'Nunito', sans-serif;
+  }
+  footer > h3 {
+    padding-top: 0.5rem;
+  }
